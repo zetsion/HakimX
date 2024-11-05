@@ -24,9 +24,9 @@ const Header = () => {
   }, []);
 
   return (
-    <header className="fixed left-0 top-0 z-50 w-full bg-stone-700 px-4 py-1 text-white shadow sm:py-2">
+    <header className="fixed left-0 top-0 z-50 h-auto w-full bg-stone-700 py-0 text-white shadow sm:py-2">
       <div className="flex items-center justify-between">
-        <img src={hakimXLogo} alt="HakimX Logo" className="h-auto w-20" />
+        <img src={hakimXLogo} alt="HakimX Logo" className="h-auto w-20 py-0" />
 
         <button
           className="block sm:hidden"
@@ -36,7 +36,7 @@ const Header = () => {
           aria-controls="mobile-menu"
         >
           <svg
-            className="mr-4 h-6 w-8"
+            className="mr-4 h-6 w-8 p-0"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
@@ -56,46 +56,46 @@ const Header = () => {
           id="mobile-menu"
           className={`${
             isMenuOpen ? "block" : "hidden"
-          } w-full bg-teal-600 transition-all duration-300 ease-in-out sm:flex sm:justify-end sm:space-x-4 sm:bg-transparent`}
+          } w-full bg-teal-600 py-0 transition-all duration-300 ease-in-out sm:flex sm:justify-end sm:space-x-4 sm:bg-transparent`}
         >
           <Link
             to="/"
-            className="block px-5 py-1 text-white hover:bg-gray-700 sm:inline-block sm:py-2"
-            onClick={() => setIsMenuOpen(false)}
+            className="block px-5 py-2 text-white hover:bg-gray-700 sm:inline-block"
+            onClick={() => setIsMenuOpen(false)} // Close menu after click
           >
             About
           </Link>
           <Link
             to="/services"
-            className="block px-5 py-1 text-white hover:bg-gray-700 sm:inline-block sm:py-2"
+            className="block px-5 py-2 text-white hover:bg-gray-700 sm:inline-block"
             onClick={() => setIsMenuOpen(false)}
           >
             Services
           </Link>
           <Link
             to="/portfolio"
-            className="block px-5 py-1 text-white hover:bg-gray-700 sm:inline-block sm:py-2"
+            className="block px-5 py-2 text-white hover:bg-gray-700 sm:inline-block"
             onClick={() => setIsMenuOpen(false)}
           >
             Portfolio
           </Link>
           <Link
             to="/testimonials"
-            className="block px-5 py-1 text-white hover:bg-gray-700 sm:inline-block sm:py-2"
+            className="block px-5 py-2 text-white hover:bg-gray-700 sm:inline-block"
             onClick={() => setIsMenuOpen(false)}
           >
             Testimonials
           </Link>
           <Link
             to="/ourteam"
-            className="block px-5 py-1 text-white hover:bg-gray-700 sm:inline-block sm:py-2"
+            className="block px-5 py-2 text-white hover:bg-gray-700 sm:inline-block"
             onClick={() => setIsMenuOpen(false)}
           >
             Our Team
           </Link>
           <Link
             to="/contacts"
-            className="block px-5 py-1 text-white hover:bg-gray-700 sm:inline-block sm:py-2"
+            className="block px-5 py-2 text-white hover:bg-gray-700 sm:inline-block"
             onClick={() => setIsMenuOpen(false)}
           >
             Contacts
