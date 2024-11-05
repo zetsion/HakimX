@@ -1,4 +1,4 @@
-# HakimX Healthcare Digitals Marketig
+# HakimX Healthcare Digital Marketing
 
 ## Built with React+Vite
 
