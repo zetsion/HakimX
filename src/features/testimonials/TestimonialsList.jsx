@@ -20,7 +20,7 @@ export default function TestimonialsList() {
       </p>
     ); // Display error message
   return (
-    <div className="mt-8 rounded-lg bg-teal-300 text-center">
+    <div className="mt-8 rounded-lg border-t-4 border-yellow-600 bg-teal-300 text-center">
       <div className="container mx-auto px-4 py-8">
         <h1 className="mb-6 text-center font-bold">
           <TypingText text=" What Our Clients Say" />
@@ -39,7 +39,7 @@ export default function TestimonialsList() {
       </div>
       <button
         // onClick={() => navigate("/testimonialform")}
-        className="mt-4 rounded-full bg-yellow-500 px-4 py-2 font-bold text-white transition duration-200 hover:bg-yellow-600"
+        className="mt-4 rounded-full border-x-4 border-teal-600 bg-yellow-500 px-4 py-2 font-bold text-white transition duration-200 hover:bg-yellow-600"
       >
         Add Testimonial
       </button>

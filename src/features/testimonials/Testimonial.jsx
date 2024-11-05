@@ -37,7 +37,7 @@ export default function Testimonial({ testimonialPerson }) {
   // };
 
   return (
-    <div className="flex w-full flex-col items-center rounded-lg bg-white p-6 text-center shadow-lg md:w-1/4">
+    <div className="flex w-full flex-col items-center rounded-lg border-x-4 border-yellow-600 bg-white p-6 text-center shadow-lg md:w-1/4">
       <img src={photo} className="mb-4 h-24 w-24 rounded-full" />
       <h2 className="flex-wrap break-words text-xl font-semibold">
         {title}. {name}, {role} at {company}{" "}

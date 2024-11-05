@@ -18,7 +18,7 @@ const DigitalTeam = () => {
     { name: "Tesfa B", role: "Web Developer", photo: hakimxdmbg },
   ];
   return (
-    <div className="mt-8 bg-teal-300 text-center">
+    <div className="mt-16 border-t-4 border-yellow-600 bg-teal-300 text-center">
       <h3 className="text-xl font-bold md:text-2xl">
         <TypingText text="The HakimX Digital Team" />
       </h3>
@@ -27,7 +27,7 @@ const DigitalTeam = () => {
         {digitalTeamList.map((digitalteamSingle) => (
           <div
             key={digitalteamSingle.role}
-            className="border-spacing-2 rounded-lg border-2 border-yellow-400 p-4 shadow-md"
+            className="border-spacing-2 rounded-lg border-x-4 border-yellow-600 p-4 shadow-md"
           >
             <img
               src={digitalteamSingle.photo}
@@ -42,7 +42,7 @@ const DigitalTeam = () => {
 
       <button
         onClick={handleClick}
-        className="mt-4 rounded-full bg-yellow-500 px-4 py-2 font-bold text-white transition duration-200 hover:bg-yellow-600"
+        className="mt-4 rounded-full border-x-4 border-teal-600 bg-yellow-500 px-4 py-2 font-bold text-white transition duration-200 hover:bg-yellow-600"
       >
         Contact Us
       </button>

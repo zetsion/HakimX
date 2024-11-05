@@ -83,7 +83,7 @@ export default function Portfolios() {
         </div>
         <button
           // onClick={() => navigate("/portfolioform")}
-          className="mt-4 justify-center rounded-full bg-yellow-500 px-4 py-2 font-bold text-white transition duration-200 hover:bg-yellow-600"
+          className="mt-4 justify-center rounded-full border-x-4 border-teal-600 bg-yellow-500 px-4 py-2 font-bold text-white transition duration-200 hover:bg-yellow-600"
         >
           Add Portfolio
         </button>

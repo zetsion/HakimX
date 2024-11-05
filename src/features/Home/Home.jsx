@@ -76,7 +76,7 @@ export default function Home() {
             Your Digital Partner
           </span>
         </h3>
-        <p className="mx-auto mt-4 max-w-xl rounded text-center font-mono font-extrabold text-black">
+        <p className="mx-auto mt-4 max-w-xl rounded-xl border-x-4 border-y-2 border-yellow-600 text-center font-mono font-extrabold text-black">
           We combine expertise in research, creative design, and digital
           activation to enhance patient engagement and drive positive health
           outcomes. By leveraging data-driven insights, we make healthcare
@@ -91,7 +91,7 @@ export default function Home() {
         </button>
       </div>
 
-      <div className="mt-4 grid gap-4 rounded-lg border-2 border-yellow-500 bg-teal-300 p-4 text-center shadow md:mt-16 md:grid-cols-[2fr_3fr] md:items-center md:text-left">
+      <div className="mt-4 grid gap-4 rounded-lg border-x-4 border-y-2 border-yellow-600 bg-teal-300 p-4 text-center shadow md:mt-16 md:grid-cols-[2fr_3fr] md:items-center md:text-left">
         <div className="flex items-center justify-evenly space-x-2 md:flex-row">
           <h3 className="text-xl font-bold md:text-2xl">What sets us apart?</h3>
           <span className="hidden text-xl md:inline-block md:text-2xl">
@@ -119,7 +119,7 @@ export default function Home() {
         </ul>
       </div>
 
-      <div className="mt-8 grid gap-4 rounded-lg border-2 border-yellow-500 bg-teal-300 p-4 text-center shadow md:mt-16 md:grid-cols-[2fr_3fr] md:items-center md:text-left">
+      <div className="mt-8 grid gap-4 rounded-lg border-x-4 border-y-2 border-yellow-600 bg-teal-300 p-4 text-center shadow md:mt-16 md:grid-cols-[2fr_3fr] md:items-center md:text-left">
         <img
           src={hakimXTeamFake}
           className="mx-auto w-full max-w-md rounded-md"
@@ -127,7 +127,7 @@ export default function Home() {
         />
         <div>
           {" "}
-          <h3 className="mt-4 text-center font-serif text-xl font-bold md:text-2xl">
+          <h3 className="mt-4 border-x-4 border-y-2 border-yellow-600 text-center font-serif text-xl font-bold md:text-2xl">
             Join the HakimX family
           </h3>
           <div className="rounded-lg text-center font-mono md:text-left">
@@ -151,7 +151,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="mt-8 text-center">
+      <div className="mt-8 border-x-4 border-t-2 border-yellow-600 text-center">
         <h3 className="font-serif text-xl font-bold text-black md:text-2xl">
           <span className="rounded-xl border-x-4 border-yellow-600 bg-teal-300 p-2">
             {" "}
@@ -183,7 +183,7 @@ export default function Home() {
         </button>
       </div>
 
-      <div className="mt-8 text-center">
+      <div className="mt-8 border-x-4 border-t-2 border-yellow-600 text-center">
         <h3 className="font-serif text-xl font-bold text-black md:text-2xl">
           <span className="rounded-xl border-x-4 border-yellow-600 bg-teal-300 p-2">
             {" "}

@@ -63,14 +63,14 @@ const allServices = [
 export default function AllServices() {
   // console.log(allServices);
   return (
-    <div className="md:mt-18 mt-16 max-w-full rounded-lg bg-teal-300 pt-10">
+    <div className="md:mt-18 mt-16 max-w-full rounded-lg border-t-4 border-yellow-600 bg-teal-300 pt-10">
       <h1 className="text-center">
         <TypingText text="All Services and Products" />
       </h1>
       {allServices.map((service, index) => (
         <div
           key={service.title}
-          className={`mt-2 grid gap-4 rounded-lg border-2 border-yellow-500 bg-teal-100 p-4 text-center shadow md:mt-2 ${index % 2 === 0 ? "md:grid-cols-[2fr_3fr]" : "md:grid-cols-[3fr_2fr]"} md:items-center md:py-0 md:text-left`}
+          className={`mt-2 grid gap-4 rounded-lg border-x-4 border-y-2 border-yellow-600 bg-teal-100 p-4 text-center shadow md:mt-2 ${index % 2 === 0 ? "md:grid-cols-[2fr_3fr]" : "md:grid-cols-[3fr_2fr]"} md:items-center md:py-0 md:text-left`}
         >
           {/* If index is even, image goes first */}
           {index % 2 === 0 ? (

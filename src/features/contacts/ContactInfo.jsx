@@ -1,6 +1,6 @@
 export default function ContactInfo() {
   return (
-    <div className="flex-1 rounded-lg bg-white p-6 shadow-lg">
+    <div className="flex-1 rounded-lg border-x-4 border-yellow-600 bg-white p-6 shadow-lg">
       <h2 className="mb-4 text-xl font-semibold">Contact Information</h2>
       <p className="mb-2">
         <strong>Email:</strong> HakimXinfo@gmail.com

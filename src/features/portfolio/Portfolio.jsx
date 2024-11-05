@@ -19,7 +19,7 @@ export default function Portfolio({ portfolio }) {
         <div className="relative bottom-0 mb-2 flex justify-end">
           <button
             onClick={handleClick}
-            className="absolute bottom-0 right-0 mb-2 mr-2 rounded-lg bg-yellow-600 px-4 py-2 font-mono font-bold text-white hover:bg-teal-600"
+            className="absolute bottom-0 right-0 mb-2 mr-2 rounded-lg border-x-4 border-teal-600 bg-yellow-600 px-4 py-2 font-mono font-bold text-white hover:bg-teal-600"
           >
             More...
           </button>
