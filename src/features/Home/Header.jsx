@@ -24,9 +24,9 @@ const Header = () => {
   }, []);
 
   return (
-    <header className="fixed left-0 top-0 z-50 w-full bg-stone-700 text-white shadow">
+    <header className="fixed left-0 top-0 z-50 h-auto w-full bg-stone-700 text-white shadow">
       <div className="flex items-center justify-between">
-        <img src={hakimXLogo} alt="HakimX Logo" className="h-20 w-20" />
+        <img src={hakimXLogo} alt="HakimX Logo" className="h-auto w-20" />
 
         <button
           className="block sm:hidden"
@@ -36,7 +36,7 @@ const Header = () => {
           aria-controls="mobile-menu"
         >
           <svg
-            className="h-6 w-6"
+            className="mr-4 h-6 w-8"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
