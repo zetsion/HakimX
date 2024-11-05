@@ -127,7 +127,7 @@ export default function Home() {
         />
         <div>
           {" "}
-          <h3 className="mt-4 border-x-4 border-y-2 border-yellow-600 text-center font-serif text-xl font-bold md:text-2xl">
+          <h3 className="mt-4 text-center font-serif text-xl font-bold md:text-2xl">
             Join the HakimX family
           </h3>
           <div className="rounded-lg text-center font-mono md:text-left">
