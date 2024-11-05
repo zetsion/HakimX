@@ -89,7 +89,7 @@ export default function AllServices() {
                     {service.description}
                   </p>
                 </div>
-                <button className="mt-4 rounded-full bg-yellow-500 px-4 py-2 font-bold text-white hover:bg-teal-700">
+                <button className="mt-4 rounded-full border-x-4 border-teal-600 bg-yellow-500 px-4 py-2 font-bold text-white hover:bg-teal-700">
                   Read More...
                 </button>
               </div>
@@ -106,7 +106,7 @@ export default function AllServices() {
                     {service.description}
                   </p>
                 </div>
-                <button className="mt-4 rounded-full bg-yellow-500 px-4 py-2 font-bold text-white hover:bg-teal-700">
+                <button className="mt-4 rounded-full border-x-4 border-teal-600 bg-yellow-500 px-4 py-2 font-bold text-white hover:bg-teal-700">
                   Read More...
                 </button>
               </div>

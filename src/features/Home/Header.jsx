@@ -63,7 +63,7 @@ const Header = () => {
             className="block px-5 py-1 text-white hover:bg-gray-700 sm:inline-block sm:py-2"
             onClick={() => setIsMenuOpen(false)}
           >
-            About
+            Home
           </Link>
           <Link
             to="/services"

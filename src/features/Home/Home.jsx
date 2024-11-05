@@ -62,7 +62,7 @@ export default function Home() {
 
           <button
             onClick={handleContact}
-            className="mt-4 rounded-full bg-yellow-500 px-4 py-2 font-bold text-white hover:bg-yellow-600"
+            className="mt-4 rounded-full border-x-4 border-teal-600 bg-yellow-500 px-4 py-2 font-bold text-white hover:bg-yellow-600"
           >
             Contact us
           </button>
@@ -71,7 +71,7 @@ export default function Home() {
 
       <div className="mt-8 text-center">
         <h3 className="font-serif text-xl font-bold md:text-2xl">
-          <span className="rounded-xl bg-teal-300 p-2">
+          <span className="rounded-xl border-x-4 border-yellow-600 bg-teal-300 p-2">
             {" "}
             Your Digital Partner
           </span>
@@ -85,7 +85,7 @@ export default function Home() {
 
         <button
           onClick={handleWorks}
-          className="mt-4 rounded-full bg-yellow-500 px-4 py-2 font-serif font-bold text-white hover:bg-teal-700"
+          className="mt-4 rounded-full border-x-4 border-teal-600 bg-yellow-500 px-4 py-2 font-serif font-bold text-white hover:bg-teal-700"
         >
           Our Works
         </button>
@@ -144,7 +144,7 @@ export default function Home() {
           </div>
           <button
             onClick={handleServices}
-            className="mt-4 rounded-full bg-yellow-600 px-4 py-2 font-bold text-white hover:bg-teal-700"
+            className="mt-4 rounded-full border-x-4 border-teal-600 bg-yellow-600 px-4 py-2 font-bold text-white hover:bg-teal-700"
           >
             Services
           </button>
@@ -153,7 +153,7 @@ export default function Home() {
 
       <div className="mt-8 text-center">
         <h3 className="font-serif text-xl font-bold text-black md:text-2xl">
-          <span className="rounded-xl bg-teal-300 p-2">
+          <span className="rounded-xl border-x-4 border-yellow-600 bg-teal-300 p-2">
             {" "}
             The HakimX Digital team
           </span>
@@ -177,7 +177,7 @@ export default function Home() {
         </div>
         <button
           onClick={handleContact}
-          className="mt-4 rounded-full bg-yellow-500 px-4 py-2 font-bold text-white hover:bg-yellow-600"
+          className="mt-4 rounded-full border-x-4 border-teal-600 bg-yellow-500 px-4 py-2 font-bold text-white hover:bg-yellow-600"
         >
           Contact us
         </button>
@@ -185,7 +185,7 @@ export default function Home() {
 
       <div className="mt-8 text-center">
         <h3 className="font-serif text-xl font-bold text-black md:text-2xl">
-          <span className="rounded-xl bg-teal-300 p-2">
+          <span className="rounded-xl border-x-4 border-yellow-600 bg-teal-300 p-2">
             {" "}
             Why Choose HakimX?
           </span>
