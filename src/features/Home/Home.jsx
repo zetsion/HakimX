@@ -1,15 +1,14 @@
 import hakimXTeamFake from "../../data/hakimXTeamFake.png";
 // import hakimxdmbg from "../../data/hakimxdmbg.webp";
 import hakimxdmbg2 from "../../data/hakimxdmbg2.webp";
-import image1 from "../../data/image1.png";
-import image2 from "../../data/image2.png";
-import image3 from "../../data/image3.png";
 import iconKnowHealthcare from "../../data/icons/icon-know-healthcare.svg";
 import iconExtendTeam from "../../data/icons/icon-extend-team.svg";
 import iconOurCulture from "../../data/icons/icon-our-culture.svg";
 import { FaCircleArrowRight } from "react-icons/fa6";
 import { useNavigate } from "react-router-dom";
 import TypingText from "../../utils/TypingText";
+import hakimxdmbg from "../../data/hakimxdmbg.webp";
+import hakimxdmbg3 from "../../data/hakimxdmbg3.webp";
 const whychooseusData = [
   {
     icon: iconKnowHealthcare,
@@ -161,17 +160,17 @@ export default function Home() {
         </h3>
         <div className="mt-4 grid grid-cols-1 gap-2 sm:grid-cols-2 md:grid-cols-3">
           <img
-            src={image1}
+            src={hakimxdmbg2}
             className="w-full rounded-md object-cover"
             alt="Team member 1"
           />
           <img
-            src={image2}
+            src={hakimxdmbg}
             className="w-full rounded-md object-cover"
             alt="Team member 2"
           />
           <img
-            src={image3}
+            src={hakimxdmbg3}
             className="w-full rounded-md object-cover"
             alt="Team member 3"
           />
