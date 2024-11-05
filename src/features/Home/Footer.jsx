@@ -73,7 +73,7 @@ const Footer = () => {
           </div>
           {openSections.contact && (
             <div className="p-2 text-center">
-              <p>Addis Abeba, Swaziland Street, Ethiopia 2024</p>
+              <p>Addis Abeba, Ethiopia</p>
               <p>HakimXinfo@gmail.com</p>
               <p>+251 (961 170 808)</p>
               <p>+251 (961 170 800)</p>
