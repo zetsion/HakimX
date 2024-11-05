@@ -43,7 +43,7 @@ export default function Testimonial({ testimonialPerson }) {
         {title}. {name}, {role} at {company}{" "}
       </h2>
       <p className="font-mono text-gray-600">{testimonial}</p>
-      <div className="mt-auto w-1/2 justify-between">
+      {/* <div className="mt-auto w-1/2 justify-between">
         <button
           // disabled={isDeletingTestimonial}
           // onClick={handleEditClick}
@@ -58,7 +58,7 @@ export default function Testimonial({ testimonialPerson }) {
         >
           Delete
         </button>
-      </div>
+      </div> */}
     </div>
   );
 }

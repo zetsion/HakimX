@@ -122,7 +122,7 @@ export default function PortfolioDetailBox() {
           >
             Back
           </button>
-          <div className="flex space-x-2">
+          {/* <div className="flex space-x-2">
             <button
               // onClick={handleEdit}
               // disabled={isWorking}
@@ -137,7 +137,7 @@ export default function PortfolioDetailBox() {
             >
               Delete
             </button>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

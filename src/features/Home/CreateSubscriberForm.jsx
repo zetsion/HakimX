@@ -10,26 +10,26 @@ export default function CreateSubscriberForm() {
     formState: { errors },
     reset,
   } = useForm();
+
   const { mutate: createSubscriber, isLoading: isCreatingSubscriber } =
     useMutation({
       mutationFn: createSubscribersApi,
       onSuccess: () => {
-        toast.success("You successully subscribed");
+        toast.success("You successfully subscribed");
         reset();
       },
       onError: () => {
-        toast.error("failed to subscribe ");
+        toast.error("Failed to subscribe");
       },
     });
 
   function onSubmit(data) {
-    // console.log(data);
     createSubscriber(data);
   }
+
   function onError(errors) {
     console.log(errors);
   }
-  const isWorking = isCreatingSubscriber;
 
   return (
     <form
@@ -42,13 +42,14 @@ export default function CreateSubscriberForm() {
       <input
         type="email"
         id="email"
-        placeholder="Enter your mail"
-        className="mx-2 w-[200px] rounded bg-yellow-400 p-2"
+        placeholder="Enter your email"
+        disabled={isCreatingSubscriber}
+        className="mx-2 w-[200px] rounded bg-yellow-600 p-2"
         {...register("email", {
-          required: "Email is requred to subscribe",
+          required: "Email is required to subscribe",
           pattern: {
             value: /^[^\s@]+@[^\s@]+\.[^\s@]+$/,
-            message: "Invalid Email format",
+            message: "Invalid email format",
           },
         })}
       />
@@ -56,10 +57,10 @@ export default function CreateSubscriberForm() {
         <span className="text-sm text-red-700">{errors.email.message}</span>
       )}
       <button
-        disabled={isWorking}
+        disabled={isCreatingSubscriber}
         className="rounded bg-blue-600 p-2 text-white"
       >
-        <b> Subscribe</b>
+        <b>{isCreatingSubscriber ? "Subscribing..." : "Subscribe"}</b>
       </button>
     </form>
   );
