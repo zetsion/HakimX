@@ -37,16 +37,16 @@ export default function CreateSubscriberForm() {
       className="mt-5 flex items-center"
     >
       <p>
-        <b className="ml-4 flex flex-wrap text-xs sm:text-2xl">
+        <b className="ml-4 flex flex-wrap text-xs sm:text-xl">
           Get latest updates:
         </b>
       </p>
       <input
         type="email"
         id="email"
-        placeholder="Enter your email"
+        placeholder="Enter email"
         disabled={isCreatingSubscriber}
-        className="w-22 md:w-30 mx-2 rounded bg-yellow-600 p-2"
+        className="w-18 mx-2 rounded bg-yellow-600 p-2 md:w-full"
         {...register("email", {
           required: "Email is required to subscribe",
           pattern: {
@@ -60,9 +60,9 @@ export default function CreateSubscriberForm() {
       )}
       <button
         disabled={isCreatingSubscriber}
-        className="rounded bg-teal-600 p-2 text-white"
+        className="w-16 rounded bg-teal-600 p-2 text-white md:w-full"
       >
-        <b className="md:text-2x text-xs">
+        <b className="max-w-full text-xs md:text-xl">
           {isCreatingSubscriber ? "Subscribing..." : "Subscribe"}
         </b>
       </button>
