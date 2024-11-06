@@ -81,7 +81,7 @@ export default function AllServices() {
                 alt="service photo"
               />
               <div>
-                <h3 className="mt-4 text-center text-xl font-bold md:text-2xl">
+                <h3 className="mt-4 border-b-2 border-yellow-600 text-center text-xl font-bold md:text-2xl">
                   {service.title}
                 </h3>
                 <div className="rounded-lg text-center md:text-left">
@@ -98,7 +98,7 @@ export default function AllServices() {
             // If index is odd, text goes first
             <>
               <div>
-                <h3 className="mt-4 text-center text-xl font-bold md:text-2xl">
+                <h3 className="mt-4 border-b-2 border-yellow-600 text-center text-xl font-bold md:text-2xl">
                   {service.title}
                 </h3>
                 <div className="rounded-lg text-center md:text-left">
