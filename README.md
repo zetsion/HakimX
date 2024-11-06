@@ -28,8 +28,21 @@
           tailwindcss
           vite
           vite-plugin-eslint
+          vite-plugin-pwa
 
-Currently, two official plugins are available:
+#### It has been upgraded to WPA so that it can work
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+                  -In man browsers and devices
+                  -it can Be istalled in devices like platorm specific apps
+                  -it can also work offline
+
+The website is live at ...
+https://hakim-x.vercel.app/
+
+How to install it?
+
+1. Click the link below and open it in browser preerably chrome/edge
+   https://hakim-x.vercel.app/
+   2.Click the three dots of the browser on the rigth upper corer of the browser
+2. Then navigate to "add to homescreen " from the list and click it
+   ### congratulations! You installed it.
