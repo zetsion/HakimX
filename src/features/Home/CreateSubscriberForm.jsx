@@ -36,15 +36,15 @@ export default function CreateSubscriberForm() {
       onSubmit={handleSubmit(onSubmit, onError)}
       className="mt-5 flex items-center"
     >
-      <p>
+      {/* <p>
         <b className="ml-4 flex flex-wrap text-xs sm:text-xl">
           Get latest updates:
         </b>
-      </p>
+      </p> */}
       <input
         type="email"
         id="email"
-        placeholder="Enter email"
+        placeholder="Enter email for Updates"
         disabled={isCreatingSubscriber}
         className="w-18 mx-2 rounded border-x-4 border-teal-600 bg-yellow-600 p-2 md:w-full"
         {...register("email", {
@@ -60,7 +60,7 @@ export default function CreateSubscriberForm() {
       )}
       <button
         disabled={isCreatingSubscriber}
-        className="w-16 rounded border-x-4 border-yellow-600 bg-teal-600 p-2 text-white md:w-full"
+        className="w-20 rounded border-x-4 border-yellow-600 bg-teal-600 p-2 text-white md:w-full"
       >
         <b className="max-w-full text-xs md:text-xl">
           {isCreatingSubscriber ? "Subscribing..." : "Subscribe"}

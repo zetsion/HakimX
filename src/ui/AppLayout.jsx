@@ -9,7 +9,8 @@ export default function AppLayout() {
       <Header className="w-full" />
 
       {/* Main content area with padding that adapts on different screen sizes */}
-      <main className="w-full max-w-full flex-grow p-4 pt-10 sm:mt-6 lg:mt-8">
+      <main className="lex-grow w-full pt-10 sm:mt-6 md:pt-8 lg:mt-8">
+        {/* <main className="w-full lex-grow p-4 pt-10 sm:mt-6 lg:mt-8"> */}
         <Outlet />
       </main>
 

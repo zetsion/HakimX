@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import About from "./pages/About";
+import HomePage from "./pages/HomePage";
 import Portfolio from "./pages/Portfolio";
 import Testimonials from "./pages/Testimonials";
 import Contacts from "./pages/Contacts";
@@ -31,8 +31,8 @@ export default function App() {
           {/* <div className="flex-grow"> */}
           <Routes>
             <Route element={<AppLayout />}>
-              <Route path="/" element={<About />} />
-              <Route path="about" element={<About />} />
+              <Route path="/" element={<HomePage />} />
+              <Route path="home" element={<HomePage />} />
               <Route path="services" element={<Services />} />
               <Route path="portfolio" element={<Portfolio />} />
               <Route path="testimonials" element={<Testimonials />} />

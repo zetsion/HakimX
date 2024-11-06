@@ -9,6 +9,7 @@ import { useNavigate } from "react-router-dom";
 import TypingText from "../../utils/TypingText";
 import hakimxdmbg from "../../data/hakimxdmbg.webp";
 import hakimxdmbg3 from "../../data/hakimxdmbg3.webp";
+
 const whychooseusData = [
   {
     icon: iconKnowHealthcare,
@@ -55,7 +56,7 @@ export default function Home() {
             <TypingText text="HakimX Healthcare Digital Marketing!" />
           </h3>
 
-          <p className="md: my-10 font-mono text-2xl font-bold text-black sm:text-base md:text-lg lg:text-xl">
+          <p className="md: my-10 font-mono text-2xl font-bold text-white sm:text-base md:text-lg lg:text-xl">
             We’re a passionate team of Healthcare professioals, graphic
             designers, computer engineers, and digital marketing specialists.
           </p>
@@ -76,7 +77,7 @@ export default function Home() {
             Your Digital Partner
           </span>
         </h3>
-        <p className="mx-auto mt-4 max-w-xl rounded-xl border-x-4 border-y-2 border-yellow-600 text-center font-mono font-extrabold text-black">
+        <p className="mx-auto mt-4 max-w-xl rounded-xl border-x-4 border-y-2 border-yellow-600 text-center font-mono font-extrabold text-white">
           We combine expertise in research, creative design, and digital
           activation to enhance patient engagement and drive positive health
           outcomes. By leveraging data-driven insights, we make healthcare

@@ -20,8 +20,8 @@ export default function TestimonialsList() {
       </p>
     ); // Display error message
   return (
-    <div className="mt-8 rounded-lg border-t-4 border-yellow-600 bg-teal-300 text-center">
-      <div className="container mx-auto px-4 py-8">
+    <div className="mt-16 rounded-lg border-t-4 border-yellow-600 bg-teal-300 text-center">
+      <div className="container mx-auto px-2 py-4">
         <h1 className="mb-6 text-center font-bold">
           <TypingText text=" What Our Clients Say" />
         </h1>

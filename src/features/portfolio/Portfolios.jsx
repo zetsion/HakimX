@@ -36,7 +36,7 @@ export default function Portfolios() {
   return (
     <div className="rounded-lg bg-teal-300">
       <div>
-        <h3 className="mb-8 mt-16 text-center font-bold sm:mt-2 md:mt-20">
+        <h3 className="mb-8 mt-16 border-t-4 border-yellow-600 text-center font-bold sm:mt-2 md:mt-20">
           <TypingText text="Our Works" />
         </h3>
         <div className="mt-4 flex flex-col items-center justify-center md:mt-0">
